@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="CppUnitLite">
+      <UniqueIdentifier>{e00e5669-0b7e-463a-ad90-a13847e4d042}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
@@ -24,6 +27,21 @@
     <ClInclude Include="SavingsAccount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Failure.h">
+      <Filter>CppUnitLite</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>CppUnitLite</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHarness.h">
+      <Filter>CppUnitLite</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRegistry.h">
+      <Filter>CppUnitLite</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResult.h">
+      <Filter>CppUnitLite</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp">
@@ -33,6 +51,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SavingsAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Failure.cpp">
+      <Filter>CppUnitLite</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>CppUnitLite</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>CppUnitLite</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRegistry.cpp">
+      <Filter>CppUnitLite</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResult.cpp">
+      <Filter>CppUnitLite</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

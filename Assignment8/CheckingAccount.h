@@ -1,4 +1,5 @@
 #include "Account.h"
+using namespace std;
 
 class CheckingAccount : public Account
 {

@@ -3,7 +3,7 @@
 using namespace std;
 
 Account::Account(int accountNumber)
-:balance(0),
+:balance(0.00),
 accountNumber(accountNumber)
 {
 
