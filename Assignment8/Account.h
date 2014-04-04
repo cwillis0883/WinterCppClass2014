@@ -1,4 +1,7 @@
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
 #include <vector>
+using namespace std;
 
 class Account
 {
@@ -12,6 +15,9 @@ public:
 
 protected:
 	float balance;
+
 private:
 	int accountNumber;
 };
+
+#endif

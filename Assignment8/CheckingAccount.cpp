@@ -1,4 +1,5 @@
 #include "CheckingAccount.h"
+#include <vector>
 using namespace std;
 
 CheckingAccount::CheckingAccount(int accountNumber)
